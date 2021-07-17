@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('front.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Otomanopee One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 28rem;
+     color: aliceblue;
+     margin-top: -13rem;
+     margin-left: 40rem;
+     
+}
+
+.countdown-counter{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20rem;
+   
+}
+span{
+    margin-left: 8rem;
+
+}
+.big-text{
+    font-size: 25rem;
+    color: aquamarine;
+    line-height: 1;
+    margin: 0 8rem;
+    margin-top: -1rem;
+   
+}
+.countdown-el{
+    font-size: 6rem;
+    color: rgb(205, 9, 245);
+}
